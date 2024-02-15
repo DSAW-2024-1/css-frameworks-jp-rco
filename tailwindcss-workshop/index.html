@@ -1,33 +1,70 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body> 
-    Your Result
-    76
-    of 100
-  
-    Great
-    You scored higher than 65% of the people who have taken these tests.
-  
-    Summary
-  
-    Reaction
-    80 / 100
-  
-    Memory
-    92 / 100
-  
-    Verbal
-    61 / 100
-  
-    Visual
-    72 / 100
-  
-    Continue
+<html lang="en">
 
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Workshop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif:wght@400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-white lg:w-full">
+    <main>
+          <div class="content wv-full flex flex-col items-center lg:flex-row lg:p-40 lg:ml-80 lg:mt-10 lg:pl-60">
+            <div class="arriba w-full max-w-2xl bg-gradient-to-b from-purple-700 via-indigo-800 to-blue-800 rounded-b-xl lg:rounded-xl overflow-hidden lg:w-1/3">
+                <div class="container mx-auto px-4 py-16 text-white">
+                    <h1 class="text-center text-lg md:text-2xl lg:text-3xl font-bold mb-4">Your Result</h1>
+                    <div class="circulo mx-auto my-8 flex flex-col justify-center items-center">
+                        <p class="text-6xl font-bold">76</p>
+                        <p class="text-me text-gray-100 mt-5">of 100</p>
+                    </div>
+
+                    <p class="text-center text-2xl font-semibold pb-9">Great</p>
+                    <p class="text-center text-lg">You scored higher than 65% of the people who have taken these tests.</p>
+                </div>
+            </div>
+            <div class="cards w-2/3 lg:border-black-600 lg:border-8 lg:rounded-xl lg:w-80">
+              <h2 class="text-xl font-semibold mt-5 mb-7 lg:mt-0 lg:ml-8">Summary</h2>
+              <div class="flex flex-col gap-4 md:gap-8 xl:gap-4 lg:gap-0 lg:ml-8">
+                  <div class="card flex flex-row rounded-md bg-red-100 p-4 w-full lg:p-2 lg:w-60">
+                      <div class="flex mb-0">
+                          <img src="/assets/images/icon-reaction.svg" alt="Reaction icon" class="w-9 h-10">
+                      </div>
+                      <h5 class="text-lg font-semibold text-center text-red-600">Reaction</h5>
+                      <p class="text-lg text-gray-600 font-bold ml-20 lg:ml-10">80</p>
+                      <p class="text-lg text-gray-600">/100</p>                  </div>
+                  <div class="card flex flex-row rounded-md bg-yellow-100 p-4 w-full lg:p-2 lg:w-60">
+                      <div class="flex mb-0">
+                          <img src="/assets/images/icon-memory.svg" alt="Memory icon" class="w-9 h-10">
+                      </div>
+                      <h5 class="text-lg font-semibold text-center text-yellow-600">Memory</h5>
+                      <p class="text-lg text-gray-600 font-bold ml-20 lg:ml-10">92</p>
+                      <p class="text-lg text-gray-600">/100</p>                  </div>
+                  <div class="card flex flex-row rounded-md bg-green-100 p-4 w-full lg:p-2 lg:w-60">
+                      <div class="flex mb-0">
+                          <img src="/assets/images/icon-verbal.svg" alt="Verbal icon" class="w-9 h-10">
+                      </div>
+                      <h5 class="text-lg font-semibold text-center text-green-600 mr-5">Verbal</h5>
+                      <p class="text-lg text-gray-600 font-bold ml-20 lg:ml-10">61</p>
+                      <p class="text-lg text-gray-600">/100</p>
+                  </div>
+                  <div class="card flex flex-row rounded-md bg-blue-100 p-4 w-full lg:p-2 lg:w-60">
+                      <div class="flex">
+                          <img src="/assets/images/icon-visual.svg" alt="Visual icon" class="w-10 h-10">
+                      </div>
+                      <h5 class="text-lg font-semibold text-center text-blue-600 mr-5">Visual</h5>
+                      <p class="text-lg text-gray-600 font-bold ml-20 lg:ml-10">72</p>
+                      <p class="text-lg text-gray-600">/100</p>
+                  </div>
+              </div>
+              <div class="mt-5 ml-2 w-full lg:ml-9">
+                <a href="#" class="btn-primary btn-l py-2 px-20 bg-blue-900 hover:bg-blue-700 text-white rounded-full ">Continue</a>
+              </div>
+            </div>
+          </div>
+    </main>
+</body>
+
 </html>
