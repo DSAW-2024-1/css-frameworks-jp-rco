@@ -7,7 +7,7 @@
 Pagina desplegada: https://dsaw-2024-1.github.io/css-frameworks-jp-rco/
 
 mobile - bootstrap: 
-./assets/images/mobile - bootstrap
+./assets/images/mobile-bootstrap
 
 Este proyecto consiste en resolver un reto de HTML y CSS dos veces, una utilizando el framework Bootstrap y otra utilizando TailwindCSS. El objetivo principal es crear dos versiones del mismo diseño, siendo lo más parecidas posible al diseño original.
 
