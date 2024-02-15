@@ -2,18 +2,27 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bootstrap Workshop</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif:wght@400&display=swap">
-  <link rel="stylesheet" type="text/css" href="./styles.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Workshop</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif:wght@400&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <style>
+        /* Estilos CSS adicionales aquí */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 
-    <body>
-        <main>
+<body>
+    <main>
+        <div class="content"> 
             <div class="arriba">
                 <div class="container mt-5">
                     <div class="row">
@@ -24,42 +33,33 @@
                     <div class="circulo">
                         <div>
                             <p>
-                                <span2>
-                                    76
-                                </span2>
+                                <span2> 76 </span2>
                             </p>
-                        </div>
-
-                        <div>
                             <p>
-                                <span3>
-                                    of 100
-                                </span3>
+                                <span3> of 100 </span3>
                             </p>
                         </div>
                     </div>
                     <div class="col-12">
                         <p class="lead text-center">
-                            <span>
-                                Great
-                            </span>
+                            <span> Great </span>
                         </p>
                     </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <p class="lead text-center">You scored higher than 65% of the people who have taken these tests.</p>
-                            </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="lead text-center">You scored higher than 65% of the people who have taken these tests.
+                            </p>
                         </div>
+                    </div>
                 </div>
             </div>
             <div class="row cards">
-
                 <h2>Summary</h2>
                 <div class="col-10 col-md-6 mb-3">
                     <div class="card h-100 reaction">
                         <div class="card-body">
                             <img src="/assets/images/icon-reaction.svg" alt="Reaction icon" class="img-fluid" />
-                            <h5 class="card-title">Reaction</h5> 
+                            <h5 class="card-title">Reaction</h5>
                             <p class="card-text"> <span>80</span>/100</p>
                         </div>
                     </div>
@@ -83,19 +83,22 @@
                     </div>
                 </div>
                 <div class="col-10 col-md-6 mb-3">
-                        <div class="card h-100 visual">
-                            <div class="card-body">
-                                <img src="/assets/images/icon-visual.svg" alt="Visual icon" class="img-fluid" />
-                                <h5 class="card-title">VIsual</h5>
-                                <p class="card-text"><span>72</span>/100</p>
-                            </div>
+                    <div class="card h-100 visual">
+                        <div class="card-body">
+                            <img src="/assets/images/icon-visual.svg" alt="Visual icon" class="img-fluid" />
+                            <h5 class="card-title">VIsual</h5>
+                            <p class="card-text"><span>72</span>/100</p>
                         </div>
+                    </div>
                 </div>
                 <div class="col-12">
                     <a class="btn btn-primary btn-lg full-width-btn">Continue</a>
                 </div>
             </div>
-        </main>
+        </div>      
+    </main>
+
+
     <!-- No elimine este tag -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
